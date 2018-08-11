@@ -1,0 +1,12 @@
+.inputContainer {
+  width: 100%;
+}
+
+.labelText {
+  float: left;
+  font-size: 12px;
+}
+
+.inputField {
+  float: right;
+}
