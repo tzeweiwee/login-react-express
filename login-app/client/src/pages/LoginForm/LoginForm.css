@@ -1,8 +1,14 @@
 .errorMessage {
+  color: red;
+  font-size: 14px;
+}
 
+.successMessage {
+  color: green;
+  font-size: 14px;
 }
 
 .loginContainer {
-  width: 500px;
-  height: 1000px;
+  width: 300px;
+  margin: auto;
 }

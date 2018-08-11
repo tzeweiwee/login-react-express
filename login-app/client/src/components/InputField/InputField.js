@@ -1,14 +1,14 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
+import styles from './InputField.css';
 
 export default class InputField extends PureComponent {
     render () {
         const { name, labelText, value, onChange, type, placeholder } = this.props;
-        console.log(this.props);
         return (
-            <div className='inputContainer'>
-                <label className='labelText'>{labelText}</label>
-                <input name={name} type={type} className='inputField' placeholder={placeholder} value={value} onChange={onChange} />
+            <div className={styles.inputContainer}>
+                <label className={styles.labelText}>{labelText}:</label>
+                <input name={name} type={type} className={styles.inputField} placeholder={placeholder} value={value} onChange={onChange} />
             </div>
         );
     }
