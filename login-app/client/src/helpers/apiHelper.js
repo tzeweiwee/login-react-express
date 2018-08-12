@@ -1,5 +1,5 @@
-export function checkStatus (response) {
-  if(response.ok) {
+export function checkStatus(response) {
+  if (response.ok) {
     return response;
   } else {
     const error = new Error(response.statusText);
@@ -8,6 +8,6 @@ export function checkStatus (response) {
   }
 }
 
-export function getResponseJSON (response) {
-    return response.json();
+export function getResponseJSON(response) {
+  return response.json();
 }

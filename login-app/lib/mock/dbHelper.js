@@ -19,7 +19,6 @@ class DBHelper {
       let found = false;
       for(let prop in query) {
         if(data.hasOwnProperty(prop)) {
-          console.log(data[prop], query[prop]);
           if(data[prop] != query[prop]) {
             found = false;
             break;
