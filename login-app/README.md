@@ -26,7 +26,10 @@ By default, the client side should run on *http://localhost:5000* meanwhile the 
 - ES6 enabled
 
 ## How to test
-Note: In client/src/config/dev/config.js, you can configure the auth service url if you have changed the Express port
+Authentication service url config
+```
+In `client/src/config/dev/config.js`, you can configure the auth service url if you have changed the Express port
+```
 To login as existing user to the app, go to db/db.js and get user credentials. Here are the samples:
 ```
 {
