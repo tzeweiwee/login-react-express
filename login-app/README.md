@@ -6,7 +6,8 @@ This is a simple login app that runs on React as client side and Node/Express on
 1. Install Node.js (8 or above)
 2. run `npm install`
 3. In /client, `npm install`
-4. run `npm run dev` for local development
+4. In /client, copy `.env.example` to `.env`
+5. run `npm run dev` for local development
 
 By default, the client side should run on *http://localhost:5000* meanwhile the server should be running on *http://localhost:5001*.
 
