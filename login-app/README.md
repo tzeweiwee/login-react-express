@@ -3,6 +3,8 @@ This is a simple login app that runs on React as client side and Node/Express on
 
 ## Installation
 
+*ROOT DIRECTORY:* `/login-app`
+
 1. Install Node.js (8 or above)
 2. run `npm install`
 3. In /client, `npm install`
