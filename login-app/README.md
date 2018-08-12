@@ -1,4 +1,5 @@
 # Login Page (React + Express)
+This is a simple login app that runs on React as client side and Node/Express on the server that acts as an authentication service.
 
 ## Installation
 
@@ -9,9 +10,7 @@
 
 By default, the client side should run on *http://localhost:5000* meanwhile the server should be running on *http://localhost:5001*.
 
-## What is it
-This is a simple login app that runs on React as client side and Node/Express on the server that acts as an authentication service.
-
+## Tech
 ### Frontend `/client`
 - Crafted with Create React App
 - Reusable mini components (Buttons, InputField)
