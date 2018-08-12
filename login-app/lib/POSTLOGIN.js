@@ -8,9 +8,10 @@ function validate({ email, password }) {
       throw new Error("Invalid email.");
     }
 
-    if (typeof password !== "string" || typeof password !== "number") {
+    if (typeof password !== "string" && typeof password !== "number") {
       throw new Error("Invalid password.");
     }
+    return;
   }
   throw new Error("Invalid email or password.");
 }
